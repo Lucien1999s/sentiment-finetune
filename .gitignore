@@ -68,3 +68,13 @@ gradio_cached_examples/
 # ---- Env files ----
 .env
 *.env
+
+# Ignore everything under model/
+model/**
+# Re-include the folder itself and small artifacts you want to keep
+!model/
+!model/metrics.json
+!model/confusion_matrix.csv
+!model/**/metrics.json
+!model/**/confusion_matrix.csv
+!model/**/confusion_matrix.png
