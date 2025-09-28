@@ -1,0 +1,19 @@
+[project]
+name = "sentiment-finetune"
+version = "0.1.0"
+description = "Finetune a 3-class sentiment model (negative/neutral/positive) end-to-end."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["sentiment_finetune"]
+
+[project.scripts]
+sentiment-train = "train:main"
+sentiment-infer = "infer:main"
+sentiment-app   = "app:main"
