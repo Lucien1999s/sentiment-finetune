@@ -1,4 +1,4 @@
-# sentiment-finetune
+# Sentiment Finetune
 
 Finetune a 3-class sentiment model (negative / neutral / positive) end-to-end.
 This repo demonstrates how to build a reliable NLP fine-tuning pipeline that you can clone, run, and reproduce with a single command.
