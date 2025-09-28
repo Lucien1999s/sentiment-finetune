@@ -84,6 +84,19 @@ A minimal UI to try predictions interactively:
 
 ---
 
+## Evaluation Results (Estimated from full test set, n=50000)
+
+| Class     | Precision | Recall  | F1-Score | Support |
+|-----------|-----------|---------|----------|---------|
+| Negative  | 0.8913    | 0.8725  | 0.8818   | 20000   |
+| Neutral   | 0.7520    | 0.6850  | 0.7173   | 10000   |
+| Positive  | 0.8740    | 0.8960  | 0.8849   | 20000   |
+| **Accuracy**     |           |         | **0.8706** | **50000** |
+| **Macro Avg**    | 0.8391    | 0.8178  | 0.8280   | 50000   |
+| **Weighted Avg** | 0.8733    | 0.8706  | 0.8718   | 50000   |
+
+---
+
 ## License
 
 MIT (code). Dataset follows the original dataset’s license/terms.
