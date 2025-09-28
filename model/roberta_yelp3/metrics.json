@@ -1,0 +1,32 @@
+{
+  "val_metrics": {
+    "eval_loss": 0.6217420101165771,
+    "eval_accuracy": 0.76,
+    "eval_macro_f1": 0.7121545860724551,
+    "eval_weighted_f1": 0.7704610831270099,
+    "eval_runtime": 2.6882,
+    "eval_samples_per_second": 74.4,
+    "eval_steps_per_second": 4.836,
+    "epoch": 2.0
+  },
+  "test_metrics": {
+    "eval_loss": 0.5879845023155212,
+    "eval_accuracy": 0.7765,
+    "eval_macro_f1": 0.7363701429985438,
+    "eval_weighted_f1": 0.7848002634060902,
+    "eval_runtime": 23.3314,
+    "eval_samples_per_second": 85.721,
+    "eval_steps_per_second": 5.358,
+    "epoch": 2.0
+  },
+  "class_distribution_train": {
+    "negative": 758,
+    "neutral": 333,
+    "positive": 709
+  },
+  "class_weights": [
+    0.7915567282321899,
+    1.8018018018018018,
+    0.846262341325811
+  ]
+}

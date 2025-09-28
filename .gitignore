@@ -1,0 +1,70 @@
+# ---- Python basics ----
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.coverage
+*.egg-info/
+dist/
+build/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+.conda/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs & training runs ----
+logs/
+runs/
+wandb/
+*.log
+
+# ---- Hugging Face / Datasets cache ----
+.huggingface/
+.cache/
+huggingface/
+cache/
+
+# ---- Datasets (ignore heavy Arrow files) ----
+data/**/*.arrow
+data/**/dataset_dict.json
+data/**/dataset_info.json
+data/**/state.json
+data/yelp3/
+
+# Keep small sample data for demo
+!data/sample/**
+
+# ---- Model weights & checkpoints (upload to HF Hub instead) ----
+model/**/checkpoint-*/
+model/**/model.safetensors
+model/**/pytorch_model*.bin
+model/**/optimizer.pt
+model/**/scheduler.pt
+model/**/training_args.bin
+model/**/rng_state.pth
+model/**/trainer_state.json
+model/**/*.onnx
+model/**/*.tflite
+
+# Keep only light outputs (metrics, confusion matrix, plots)
+!model/metrics.json
+!model/confusion_matrix.csv
+!model/**/metrics.json
+!model/**/confusion_matrix.csv
+!model/**/confusion_matrix.png
+
+# ---- Gradio cache ----
+gradio_cached_examples/
+
+# ---- Env files ----
+.env
+*.env
